@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Requirements"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program To Maximum Number Between Two Numbers"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/programborder"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public class MaximumNumber {"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public static void main(String[]args) {"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int a = 8;"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:paddingLeft="25dp"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="int b = 9;"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:paddingLeft="25dp"/>
+
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='if(a>b);'
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='System.out.println(i + " is greater than " + j);'
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='else'
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='System.out.println(j + " is greater than " + i );'
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="}"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="}"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

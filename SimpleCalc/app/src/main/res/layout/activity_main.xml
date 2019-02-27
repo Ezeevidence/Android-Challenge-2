@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    >
+
+
+
+
+<LinearLayout
+    android:id="@+id/layoutCal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvCal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="0"
+        android:layout_gravity="center_vertical"
+        android:textColor="#7f7f7f"
+        android:textSize="50sp"
+        android:textAlignment="textEnd"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:textColor="#7f7f7f"
+    android:text="0"
+    android:textSize="30sp"
+    android:textAlignment="textEnd"/>
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/layoutCal"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Sin"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/Cos"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/Tan"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="!"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="^"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/Cos"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="("
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=")"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="SQ"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="1/x"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:theme="@style/MyButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+</LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>

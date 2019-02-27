@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Learn Now</string>
+    <string name="start"> Start</string>
+    <string name="mach">MACH INFINITY</string>
+    <string name="getting">Getting Started</string>
+    <string name="java_syntx">Java Syntax</string>
+    <string name="tips">More Tips</string>
+    <string name="examples">Program Examples</string>
+    <string name="hello_world"> Program To Print Hello World</string>
+
+</resources>

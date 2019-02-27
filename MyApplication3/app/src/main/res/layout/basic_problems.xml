@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SecondPage"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:paddingTop="200dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+            <Button
+                android:id="@+id/btnHelloWorld"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 'Hello WOrld'"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+            <Button
+                android:id="@+id/btnSumOfTwoNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Sum Of Two Numbers"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnAreaOfCircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Area Of Circle"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnOddOrEvenNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Odd Or Even Mumber"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnFibonacciSeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. FIbonacci Series"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnQuadraticEquation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Quadratic Equation"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/btnMaximumBetweenTwoNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Maximum Between Two Numbers"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Diamond Bank</string>
+    <string name="Help">Help...</string>
+    <string name="Register">Register</string>
+    <string name="login">Forgot Login Details</string>
+    <string name="transfer">Quick Transfer</string>
+    <string name="device">Changed Device?</string>
+    <string name="payment">Quick Bill Payment</string>
+    <string name="account">Open An Account</string>
+    <string name="loans">Quick Loans</string>
+    <string name="internet">Internet Banking</string>
+    <string-array name="countries">
+        <item>Choose Country</item>
+    </string-array>
+</resources>

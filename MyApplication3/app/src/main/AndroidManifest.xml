@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LexicalElements"></activity>
+        <activity android:name=".HarderProblems" />
+        <activity android:name=".BasicProblems" />
+        <activity android:name=".ReservedKeywords" />
+        <activity android:name=".MaximumBetweenTwoNumbers" />
+        <activity android:name=".Begin" />
+        <activity android:name=".AreaOfCircle" />
+        <activity android:name=".OddOrEvenNumber" />
+        <activity android:name=".SumOfTwoNumbers" />
+        <activity android:name=".QuadraticEquation" />
+        <activity android:name=".HelloWordProgram" />
+        <activity android:name=".Requirements" />
+        <activity android:name=".WhatIsJava" />
+        <activity android:name=".OOP" />
+        <activity android:name=".MoreTips" />
+        <activity android:name=".ProgramExamples" />
+        <activity android:name=".JavaSyntax" />
+        <activity android:name=".ApplicationsOfJava" />
+        <activity android:name=".GettingStarted" />
+        <activity android:name=".FirstPage" />
+        <activity android:name=".SecondPage" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

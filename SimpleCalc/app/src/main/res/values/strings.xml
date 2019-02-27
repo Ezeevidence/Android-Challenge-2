@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Calc</string>
+    <string name="Sin">Sin</string>
+    <string name="Cos">Cos</string>
+    <string name="Tan">Tan</string>
+    <string name="Factorial">!</string>
+    <string name="caret">^</string>
+    <string name="clear">C</string>
+    <
+</resources>

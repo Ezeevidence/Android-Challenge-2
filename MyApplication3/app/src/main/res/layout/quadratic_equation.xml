@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Requirements"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print the Solutions Of A Quadratic Equation "
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/programborder"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="15dp">
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="public class QuadraticEquation {"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='static int a,b,c;'
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='static double d,e,f;'
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="public static void main (String[]args) {"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='double x1;'
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='double x2;'
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+        <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='a=2'
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+        <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b= 4;"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c= 4;"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f= 4*a*c;;"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d= ((b*b)-f);;"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x1= ((-b + e)/(2*a));"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x1= ((-b - e)/(2*a));"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='System.out.println(x1 + " is the first root of the equation");'
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='System.out.println(x2 + " is the second root of the equation");'
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="}"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="}"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
