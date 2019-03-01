@@ -1,9 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HarderProblems">
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SecondPage"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:paddingTop="200dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+            <Button
+                android:id="@+id/btnCalculateAndDisplayStudentsGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Calculate And Display Students' Grade"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnConverChartArrayToSTring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Convert Char Array To String"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnGetASCIIValueOfCharacter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Get ASCII Value Of Character"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnCheckArmstrongs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Check Armstrong's Number"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnFibonacciSeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. FIbonacci Series"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnQuadraticEquation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Quadratic Equation"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btnMaximumBetweenTwoNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Maximum Between Two Numbers"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:background="@drawable/textborder"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

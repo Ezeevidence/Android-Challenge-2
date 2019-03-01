@@ -48,5 +48,19 @@ The main advantages and goals of OOP are to make complex software faster to deve
         Java is the choice of many software developers for writing applications involving scientific calculations and mathematical operations. These programs are generally considered to be fast and secure, have a higher degree of portability and low maintenance. Applications like MATLAB use Java both for interacting user interface and as part of the core system.
 
     </string>
+    <string name="java1">
+        Java is a computer programming language. It enables programmers to write computer instructions using English-based commands instead of having to write in numeric codes. It’s known as a high-level language because it can be read and written easily by humans.
+    </string>
+    <string name="java2">
+        Like English, Java has a set of rules that determine how the instructions are written. These rules are known as its syntax. Once a program has been written, the high-level instructions are translated into numeric codes that computers can understand and execute.
+    </string>
+    <string name="java3">
+        Java was developed in the mid-1990s by James A. Gosling, a former computer scientist with Sun Microsystems. Java produces applets (browser-run programs), which facilitate graphical user interface (GUI) and object interaction by Internet users. Prior to Java applets, Web pages were typically static and non-interactive. Java applets have diminished in popularity with the release of competing products, such as Adobe Flash and Microsoft Silverlight.
+
+    </string>
+    <string name="java4">
+        Java applets run in a Web browser with Java Virtual Machine (JVM), which translates Java bytecode into native processor instructions and allows indirect OS or platform program execution. JVM provides the majority of components needed to run bytecode, which is usually smaller than executable programs written through other programming languages. Bytecode cannot run if a system lacks required JVM.Java programs are found in desktops, servers, mobile devices, smart cards and Blu-ray Discs (BD).
+    </string>
+
 
     </resources>

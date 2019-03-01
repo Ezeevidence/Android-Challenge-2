@@ -33,6 +33,7 @@
             android:textColor="@color/yellow"
             android:textAlignment="center"
             android:layout_gravity="center"
+            android:paddingBottom="10dp"
             />
 
         <TextView
@@ -100,6 +101,23 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#. Follow the Java naming conventions. If you get into the habit of using the same case pattern for different identifier types, then you improve your chances of avoiding a typing mistake."
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#. Avoid using variable names that differ only in case. Like the example above, if you had three variables called “endLoop”, “Endloop”, and “EndLoop” it would not take long before you mistype one of their names. Then you might find your code changing the value of the wrong variable by mistake."
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

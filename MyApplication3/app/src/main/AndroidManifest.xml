@@ -9,7 +9,11 @@
         android:roundIcon="@drawable/launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LexicalElements"></activity>
+        <activity android:name=".GetASCIIValueOfCharacter"></activity>
+        <activity android:name=".GetInputFromUser" />
+        <activity android:name=".CalculateAndDisplayStudentsGrades" />
+        <activity android:name=".ConvertCharArrayToString" />
+        <activity android:name=".LexicalElements" />
         <activity android:name=".HarderProblems" />
         <activity android:name=".BasicProblems" />
         <activity android:name=".ReservedKeywords" />

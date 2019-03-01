@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
 <android.support.v4.widget.NestedScrollView
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -13,15 +19,57 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Requirements"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Now"
-            android:textSize="50sp"
-            android:textColor="@color/yellow"
+            android:text="What Is Java"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/java1"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/java2"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/java3"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/java4"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>

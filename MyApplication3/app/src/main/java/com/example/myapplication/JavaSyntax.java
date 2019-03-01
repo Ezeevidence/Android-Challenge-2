@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class JavaSyntax extends AppCompatActivity {
 
-    private Button btnDataTypes, btnReservedKeywords;
+    private Button btnDataTypes, btnLexicalElemnts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,8 @@ public class JavaSyntax extends AppCompatActivity {
             }
         });
 
-        btnReservedKeywords = findViewById(R.id.btnLexicalElements);
-        btnReservedKeywords.setOnClickListener(new View.OnClickListener() {
+        btnLexicalElemnts = findViewById(R.id.btnLexicalElements);
+        btnLexicalElemnts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(JavaSyntax.this, LexicalElements.class));
